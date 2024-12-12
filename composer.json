@@ -12,7 +12,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=8.3",
-        "minormous/structure": "^1",
+        "minormous/structure": "dev-master|^1",
         "rdlowrey/auryn": "^1.1"
     },
     "require-dev": {
