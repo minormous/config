@@ -1,8 +1,8 @@
 <?php
 
-namespace Equip\Configuration;
+namespace Minormous\Configuration;
 
-use Equip\Env;
+use Minormous\Env;
 
 trait EnvTrait
 {

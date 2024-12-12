@@ -1,18 +1,18 @@
 {
-    "name": "equip/config",
+    "name": "minormous/config",
     "description": "A library for configuring the Auryn dependency injector",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Equip Contributors",
-            "homepage": "https://github.com/equip"
+            "name": "Minormous Contributors",
+            "homepage": "https://github.com/minormous"
         }
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": ">=5.5",
-        "equip/structure": "^1",
+        "php": ">=8.3",
+        "minormous/structure": "^1",
         "rdlowrey/auryn": "^1.1"
     },
     "require-dev": {
@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Equip\\": "src/"
+            "Minormous\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "EquipTests\\": "tests/"
+            "MinormousTests\\": "tests/"
         }
     },
     "scripts": {

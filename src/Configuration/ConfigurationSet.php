@@ -1,10 +1,10 @@
 <?php
 
-namespace Equip\Configuration;
+namespace Minormous\Configuration;
 
 use Auryn\Injector;
-use Equip\Exception\ConfigurationException;
-use Equip\Structure\Set;
+use Minormous\Exception\ConfigurationException;
+use Minormous\Structure\Set;
 
 class ConfigurationSet extends Set implements ConfigurationInterface
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Equip\Exception;
+namespace Minormous\Exception;
 
 use DomainException;
-use Equip\Configuration\ConfigurationInterface;
+use Minormous\Configuration\ConfigurationInterface;
 
 class ConfigurationException extends DomainException
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Equip\Configuration;
+namespace Minormous\Configuration;
 
 use Auryn\Injector;
 

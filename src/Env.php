@@ -1,8 +1,8 @@
 <?php
 
-namespace Equip;
+namespace Minormous;
 
-use Equip\Structure\Dictionary;
+use Minormous\Structure\Dictionary;
 
 class Env extends Dictionary
 {

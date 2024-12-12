@@ -1,10 +1,10 @@
 <?php
 
-namespace EquipTests\Configuration;
+namespace MinormousTests\Configuration;
 
 use Auryn\Injector;
-use Equip\Configuration\ConfigurationInterface;
-use Equip\Configuration\ConfigurationSet;
+use Minormous\Configuration\ConfigurationInterface;
+use Minormous\Configuration\ConfigurationSet;
 use PHPUnit_Framework_TestCase as TestCase;
 
 class ConfigurationSetTest extends TestCase
@@ -50,12 +50,12 @@ class ConfigurationSetTest extends TestCase
     }
 
     /**
-     * @expectedException Equip\Exception\ConfigurationException
+     * @expectedException Minormous\Exception\ConfigurationException
      * @expectedExceptionRegExp /class .* must implement ConfigurationInterface/i
      */
     public function testInvalidClass()
     {
-        $set = new ConfigurationSet;
+        $set = new ConfigurationSet();
         $set->withValue('\stdClass');
     }
 }
